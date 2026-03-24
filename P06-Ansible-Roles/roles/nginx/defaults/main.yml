@@ -1,0 +1,4 @@
+---
+nginx_vhost_port: 80
+nginx_doc_root: /var/www
+nginx_user: www-data
