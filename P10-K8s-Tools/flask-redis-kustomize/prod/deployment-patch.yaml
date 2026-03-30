@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-app
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: flask
+        image: flask:v2
+        env:
+        - name: REDIS_HOST
+          value: 'prod-redis'
+        - name: ENV
+          value: 'PRODUCTION'
