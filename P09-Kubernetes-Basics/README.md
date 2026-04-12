@@ -22,5 +22,5 @@
   - `flask-service.yml` — Service LoadBalancer
   - `redis.yml` — Deployment Redis
   - `redis-service.yml` — Service ClusterIP
-- `screenshots/` — скриншоты выполнения
+- `screens/` — скриншоты выполнения
 - `README.md` — документация
