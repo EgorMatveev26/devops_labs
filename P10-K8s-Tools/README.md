@@ -23,7 +23,7 @@
 
 - `P10-K8s-Tools/` — корневая папка лабы
   - `README.md` — документация
-  - `screenshots/` — скриншоты выполнения
+  - `screens/` — скриншоты выполнения
   - `helm-prometheus/` — Helm chart для Prometheus-Grafana
     - `Chart.yaml` — метаданные chart
     - `values.yaml` — настраиваемые значения
